@@ -92,3 +92,7 @@ h4.subt {
 .neng-socials > li > a [class^="fa"] {
   font-size: 3rem;
 }
+
+.center {
+  margin-top: 10vw;
+}
