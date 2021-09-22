@@ -1,0 +1,94 @@
+h4.subt {
+  font-family: "Montserrat", sans-serif;
+  color: #fff !important;
+  text-align: center;
+}
+
+.neng-socials {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  color: #fff;
+  text-align: center;
+}
+
+.neng-socials:before,
+.neng-socials:after {
+  display: table;
+  content: " ";
+}
+
+.neng-socials:after {
+  clear: both;
+}
+
+.neng-socials:before,
+.neng-socials:after {
+  display: table;
+  content: " ";
+}
+
+.neng-socials:after {
+  clear: both;
+}
+
+.neng-socials > li {
+  position: relative;
+  display: inline-block;
+}
+
+.neng-socials > li > a {
+  position: relative;
+  display: block;
+  color: #ddd;
+  padding: 10px 15px;
+}
+
+.neng-socials > li > a:hover,
+.neng-socials > li > a:focus {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.neng-socials > li.disabled > a {
+  color: #999999;
+}
+
+.neng-socials > li.disabled > a:hover,
+.neng-socials > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.neng-socials .open > a,
+.neng-socials .open > a:hover,
+.neng-socials .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #428bca;
+}
+
+.neng-socials .open > a .caret,
+.neng-socials .open > a:hover .caret,
+.neng-socials .open > a:focus .caret {
+  border-top-color: #2a6496;
+  border-bottom-color: #2a6496;
+}
+
+.neng-socials .neng-socials-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.neng-socials > li > a > img {
+  max-width: none;
+}
+
+.neng-socials > li > a [class^="fa"] {
+  font-size: 3rem;
+}
